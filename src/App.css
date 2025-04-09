@@ -1,0 +1,63 @@
+/* 🔹 Fondo estático con color sólido */
+.app-container {
+  background-color: #ffffff;
+  background-image: url('./img/fondo.png'); /* Asegúrate de reemplazar esta ruta */
+  background-size: cover; /* Esto asegura que la imagen cubra toda el área */
+  background-position: center;
+  min-height: 100vh;
+  color: rgb(10, 9, 9);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* 🔹 Navbar con fondo sólido naranja */
+.bg-orange {
+  background-color: #ff6a00 !important;
+  padding: 15px 0;
+  font-size: 1.2rem;
+}
+
+/* 🔹 Hero Section */
+.hero-section {
+  padding: 80px 20px;
+}
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+ 
+}
+.hero-section p {
+  font-size: 1.4rem;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-weight: bold;
+}
+h4 {
+  color:darkorange;
+  font-weight: bold;
+}
+.benefit-box {
+  background-color: rgba(240, 248, 255, 0.7); /* 0.7 es el nivel de transparencia */
+}
+.benefit-box {
+  background-color: aliceblue;
+  opacity: 0.9; /* Hace todo el contenido translúcido */
+}
+ 
+/* 🔹 Pie de página */
+.footer {
+  margin-top: 50px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 1rem;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
